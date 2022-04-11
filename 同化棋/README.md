@@ -5,7 +5,7 @@
 对这里的相关文件，介绍如下；
 
 1) 文件夹`History-Botzone`和`History-Demo`：均为项目建设过程中相对比较重要的历史版本，两文件夹内分别为适应Botzone测评API的代码和可以直接在本地运行的代码。
-2) 文件夹`Release`：内含可执行文件`Ataxx by WRH-Demo.exe`，可直接在Windows本地运行，无需搭建C++环境。**由于运行时会在当前目录建立新文件，建议将其置于新建空文件夹中运行，以免造成不必要的麻烦。**
+2) 文件夹`Release`：内含可执行文件`Ataxx by WRH-Demo.exe`，可直接在Windows本地运行，无需搭建C++环境。**由于运行时会在当前目录建立新文件，建议将其置于新建空文件夹中运行，以免造成不必要的麻烦；对于所有cpp文件，同样如此建议。**
 3) 文件`Ataxx-Src-BotZone.cpp`和`Ataxx-Src-Demo.cpp`：最终版本的Botzone API适应程序和本地运行程序。**项目建设时的运行环境为Visual Studio 2021。**
 4) 文件`easyx.h`和`graphics.h`：在`Ataxx-Src-Demo.cpp`中所导入的图形库。
 5) `2021同化棋作业说明.pdf`：为教师给出的作业要求和简单介绍。
